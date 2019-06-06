@@ -1,0 +1,6 @@
+Host github.com
+        HostName github.com
+        User git
+        port 22
+        ProxyCommand nc -x proxy.xxxx.com:1080 -X 5 %h %p
+
